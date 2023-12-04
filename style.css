@@ -1,13 +1,15 @@
 @charset "UTF-8";
 
 body {
-    background-color: #a1d1c7a6;
+    background-color: #F0FFF0;
+    min-height: 100vh;
+    margin: 0;
 }
-
 header {
+    background-image: linear-gradient(to bottom, #649c91a6, #2a554c);
     min-height: 200px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 header > h1 {
@@ -38,14 +40,41 @@ nav > a {
     text-decoration: none;
 }
 nav > a:hover {
-    background-color: #375C54;
+    background-color: #509183;
     color: white;
 }
-main {
+div {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
+    background-color: #a1d1c7a6;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
+main > h1 {
+    color: #112420;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-image: linear-gradient(to right, #2a554c96, transparent);
+}
+div > h1 {
+    color: #112420;
+    margin-top: 2em;
+    background: linear-gradient(to right, #2a554c96, transparent);
+}
+div a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #112420;
+    background-color: #509183;
+    padding: 2px 6px;
+
+}
+div a:hover {
+    text-decoration: underline;
+    color: #112420;
 }
